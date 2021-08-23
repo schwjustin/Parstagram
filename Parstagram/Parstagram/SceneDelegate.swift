@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftUI
+import Parse
 
 class AnyGestureRecognizer: UIGestureRecognizer {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent) {
@@ -53,6 +54,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.addGestureRecognizer(tapGesture)
         
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        if PFUser.current() != nil {
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavController = main.instantiateViewController(identifier: "FeedNavigationController")
+            window?.rootViewController = feedNavController
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

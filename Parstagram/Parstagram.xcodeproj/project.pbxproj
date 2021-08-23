@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A41B88926D3311D00B33D98 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A41B88826D3311D00B33D98 /* CommentCell.swift */; };
 		0A7E327F26C992D400DCA250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E327E26C992D400DCA250 /* AppDelegate.swift */; };
 		0A7E328126C992D400DCA250 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E328026C992D400DCA250 /* SceneDelegate.swift */; };
 		0A7E328626C992D400DCA250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7E328426C992D400DCA250 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		02F3A59CE5A47AF45CA96C8C /* Pods-ParstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.release.xcconfig"; path = "Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		0774BC3B8F5D6BC17697BAB7 /* Pods_Parstagram_ParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram_ParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A41B88826D3311D00B33D98 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		0A7E327B26C992D300DCA250 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7E327E26C992D400DCA250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A7E328026C992D400DCA250 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				0A7E327E26C992D400DCA250 /* AppDelegate.swift */,
 				0A7E328026C992D400DCA250 /* SceneDelegate.swift */,
 				0A7E328426C992D400DCA250 /* Main.storyboard */,
+				0A41B88826D3311D00B33D98 /* CommentCell.swift */,
 				0A7E32B426C9B30600DCA250 /* PostCell.swift */,
 				0A7E32B226C9AD7600DCA250 /* CameraViewController.swift */,
 				0A7E32AE26C994B800DCA250 /* LoginViewController.swift */,
@@ -421,6 +424,7 @@
 				0A7E32B126C994BE00DCA250 /* FeedViewController.swift in Sources */,
 				0A7E328126C992D400DCA250 /* SceneDelegate.swift in Sources */,
 				0A7E32B526C9B30600DCA250 /* PostCell.swift in Sources */,
+				0A41B88926D3311D00B33D98 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
